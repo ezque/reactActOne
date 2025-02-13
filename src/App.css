@@ -1,15 +1,21 @@
 .apps {
   text-align: center;
   padding: 20px;
-  background-color: #f4f4f4;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px
 }
 
-h2 {
+.apps h2 {
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-button {
+.apps button {
   padding: 10px 15px;
   margin: 5px;
   border: none;
@@ -33,6 +39,6 @@ button {
   color: white;
 }
 
-button:hover {
+.apps button:hover {
   opacity: 0.8;
 }
