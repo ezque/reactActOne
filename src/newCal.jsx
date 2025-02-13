@@ -30,7 +30,6 @@ function NewCal() {
 
     return (
         <main class="newCal">
-            <h2>New Cal</h2>
             <h3>Result: {result} </h3>
             <input type="number"  onChange={(e) => handleNum1(e.target.value)} />
             <input type="number" onChange={(e) => handleNum2(e.target.value)} />
