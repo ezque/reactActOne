@@ -5,7 +5,20 @@
     justify-content: center;
     border: 1px solid black;
     width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: beige;
 }
 .rows {
     display: flex;
+}
+.input-container{
+    width: 100%;
+}
+.input-container input{
+    width: 80%;
+    height: 20px;
+    background-color: beige;
+    border: 1px solid green;
+    border-radius: 5px;
 }

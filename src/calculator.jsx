@@ -23,7 +23,7 @@ const Calculator = () => {
     return (
         <main class="calculator">
             <h2>Calculator</h2>
-            <div>
+            <div class="input-container">
                 <input type="text" value={expression} disabled />
             </div>
             <div class="rows">
