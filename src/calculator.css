@@ -2,22 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     border: 1px solid black;
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: beige;
+    gap: 10px;
+    height: auto;
+
 }
 .rows {
     display: flex;
+    gap: 10px;
+    bottom: 10px;
+}
+.rows button {
+    width: 40px;
+    height: 30px;
+    border: 1px solid green;
 }
 .input-container{
     width: 100%;
 }
 .input-container input{
-    width: 80%;
-    height: 20px;
+    width: 75%;
+    height: 25px;
     background-color: beige;
     border: 1px solid green;
     border-radius: 5px;
